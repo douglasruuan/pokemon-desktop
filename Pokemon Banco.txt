@@ -1,0 +1,33 @@
+create table personagem(
+    idpersonagem bigint auto_increment,
+
+    nome varchar(100),
+
+    sexo varchar(100),
+
+    idade int(100),
+
+    cidade varchar(100),
+
+    insignias varchar(100),
+    pokemonscapt int(151),
+    acessoSaffari varchar(100),
+   primary key(idpersonagem)
+);
+
+
+
+
+
+
+
+create table pokemon(
+    idpokemon bigint auto_increment,
+
+	pokemon varchar(100),
+	lvlPokemon int(100),
+	pokebolaUsada varchar(100),
+	tipoPokemon varchar (100),
+	pedra varchar(100),
+	primary key(idpokemon));
+   
